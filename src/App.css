@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  color: #333;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  text-align: center;
+  padding: 40px 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.App-header h1 {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 10px;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+}
+
+.App-header p {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 300;
+}
+
+.author-link {
+  color: rgba(255, 255, 255, 0.95);
+  text-decoration: none;
+  position: relative;
+  transition: all 0.3s ease;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.author-link:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+}
+
+.author-link:active {
+  transform: translateY(0);
+}
+
+.author-link::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 50%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.8), transparent);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.author-link:hover::before {
+  width: 100%;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .App-header {
+    padding: 30px 15px;
+  }
+  
+  .App-header h1 {
+    font-size: 2rem;
+  }
+  
+  .App-header p {
+    font-size: 1rem;
+  }
+  
+  .author-link {
+    padding: 1px 4px;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  .App-header h1 {
+    font-size: 1.5rem;
+  }
+  
+  .App-header p {
+    font-size: 0.9rem;
+  }
+  
+  .author-link {
+    padding: 1px 3px;
+    font-size: 0.85em;
+  }
+}
