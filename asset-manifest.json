@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/study-case-3/static/css/main.e05e2219.css",
+    "main.js": "/study-case-3/static/js/main.bd80508a.js",
+    "static/media/igor-sid-marceline-copy-min.jpg": "/study-case-3/static/media/igor-sid-marceline-copy-min.d842f27f2669eac3e02b.jpg",
+    "static/media/igor-sid-malenia-min.jpg": "/study-case-3/static/media/igor-sid-malenia-min.d357ff4916644d96c114.jpg",
+    "static/media/igor-sid-asuka-min.jpg": "/study-case-3/static/media/igor-sid-asuka-min.86f1a8e743ecf5a00554.jpg",
+    "static/media/igor-sid-152-min.jpg": "/study-case-3/static/media/igor-sid-152-min.3a818f1bfe9c5aa9ecbc.jpg",
+    "static/media/igor-sid-153-min.jpg": "/study-case-3/static/media/igor-sid-153-min.b172fb4a1830041150ea.jpg",
+    "index.html": "/study-case-3/index.html",
+    "main.e05e2219.css.map": "/study-case-3/static/css/main.e05e2219.css.map",
+    "main.bd80508a.js.map": "/study-case-3/static/js/main.bd80508a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e05e2219.css",
+    "static/js/main.bd80508a.js"
+  ]
+}
